@@ -4,7 +4,7 @@ class Paladin extends Character {
   }
 
   // healingLightning(victim) {
-  //   if (this.attackVictim(4, victim) && this.mana >= 40) {
+  //   if (this.dealDamage(4, victim) && this.mana >= 40) {
   //     this.hp += 5;
   //     this.mana -= 40;
   //   }

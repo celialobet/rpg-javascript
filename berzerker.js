@@ -3,10 +3,10 @@ class Berzerker extends Character {
     super(name, hp, dmg, mana);
   }
 
-  // Rage = () => {
-  //   if (this.attackVictim()) {
-  //     this.attack++;
-  //     this.hp--;
-  //   }
-  // };
+  Rage = () => {
+    if (this.attackVictim()) {
+      this.attack++;
+      this.hp--;
+    }
+  };
 }
